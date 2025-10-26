@@ -49,43 +49,6 @@ All numerical input variables (except `Time` and `Amount`) have been transformed
 
 ---
 
-## ⚙️ How to Run the Notebook
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
-```
-
-### 2. Create and Activate Virtual Environment (Recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate        # On macOS/Linux
-venv\Scripts\activate           # On Windows
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-If you don’t have a `requirements.txt`, install manually:
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
-```
-
-### 4. Run the Jupyter Notebook
-
-```bash
-jupyter notebook "Credit Card Fraud Detection using Machine Learning.ipynb"
-```
-
----
-
 ## 📊 Model Evaluation Metrics
 
 | Metric        | Description                          |
